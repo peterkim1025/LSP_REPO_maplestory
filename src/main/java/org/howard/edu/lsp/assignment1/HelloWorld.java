@@ -1,5 +1,5 @@
 /**
-Name: maplestory
+ Peter Woohyun Kim
  */
 
 package org.howard.edu.lsp.assignment1;
