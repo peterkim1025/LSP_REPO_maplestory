@@ -14,6 +14,3 @@ ProductID,Name,Price,Category,PriceRange
 14,WATER BOTTLE,15.99,Accessories,Medium
 15,CALCULATOR,19.99,Education,Medium
 16,PRINTER,116.99,Electronics,High
-17,DESK,149.99,Furniture,High
-18,FILE ORGANIZER,9.99,Stationery,Low
-19,SPEAKERS,71.99,Electronics,Medium
