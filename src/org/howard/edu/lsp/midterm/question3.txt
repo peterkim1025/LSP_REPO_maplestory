@@ -1,0 +1,8 @@
+The current design does not support dynamic trim-level changes because each trim level (`Base`, `Sports`, `Luxury`) is implemented as a separate subclass of `Car`.
+This means the trim type is bound at compile-time — once a `Car` is created as a `Base` object, it cannot be changed to a `Luxury` or `Sports` trim without creating a new instance and copying data.
+This approach tightly couples car features to inheritance, making the system rigid and difficult to modify or extend.
+
+To support trim-level changes dynamically, the class should be refactored to use composition rather than inheritance.
+The `Car` class should contain a `TrimLevel` field, and specific trims like `BaseTrim`, `SportTrim`, and `LuxuryTrim` should implement that interface.
+By adding a method such as `setTrimLevel(TrimLevel newTrim)`, the car’s trim can be swapped at runtime without recreating the object.
+This design follows the “composition over inheritance” principle, increases flexibility, and makes the system easier to maintain and extend.

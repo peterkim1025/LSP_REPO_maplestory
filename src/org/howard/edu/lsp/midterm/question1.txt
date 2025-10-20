@@ -1,0 +1,8 @@
+a)
+A well-designed class should have high cohesion, meaning all its methods and data relate to a single, clearly defined purpose. 
+This improves clarity, maintainability, and reusability.
+
+b)
+The StudentPortalHelper class exhibits low cohesion, as it mixes unrelated concerns (academic logic, payments, security, caching, UI formatting, etc.).
+To fix this, it should be refactored into multiple single-purpose classes such as GpaCalculator, EmailService, PaymentProcessor, etc. 
+Each class would then uphold Riel’s heuristic that a class should represent one key abstraction, thereby improving the design’s quality and maintainability.

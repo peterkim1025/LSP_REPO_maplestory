@@ -1,0 +1,11 @@
+Why is Device abstract?
+Device is defined as an abstract class because it represents a common blueprint for all smart devices, containing shared fields (like id, location, and connection state) and behaviors (like heartbeat()), but leaving device-specific details (getStatus()) for subclasses to define.
+It ensures consistency across all devices while allowing flexibility for each type’s unique behavior.
+
+How do the interfaces add behavior?
+The Networked and BatteryPowered interfaces provide behavioral contracts that concrete devices can implement independently of their inheritance hierarchy. 
+This allows for flexible combinations — some devices (like Thermostat) only need networking, while others (like DoorLock and Camera) need both networking and battery support.
+
+Is this multiple inheritance?
+No — Java doesn’t support multiple inheritance of classes, but it does allow a class to implement multiple interfaces. 
+This design achieves the benefits of multiple inheritance (shared behaviors) safely and cleanly through interfaces, avoiding ambiguity or diamond inheritance issues.

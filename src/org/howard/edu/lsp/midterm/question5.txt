@@ -1,0 +1,10 @@
+Before and during this course, I’ve used AI tools like ChatGPT and GitHub Copilot a lot to support my learning and programming. 
+At work, AI helps me handle repetitive or boring tasks, like writing boilerplate code or automating small processes. 
+For homework and class projects, I often use AI to save time on tedious tasks—formatting code, generating test cases, or exploring different solution ideas quickly.
+
+The biggest benefits I’ve seen are efficiency and speed. 
+AI lets me focus on the parts of programming and problem-solving that actually require thinking, rather than getting bogged down in repetitive work. 
+But there are definitely limitations—AI isn’t good at debugging or figuring out why code is broken, so I still have to rely on my own reasoning to fix problems.
+
+Looking ahead, I expect AI to continue being a helpful tool for both academic and professional problem-solving. 
+It will speed up routine work and help me explore ideas faster, but critical thinking and careful evaluation will always be necessary to make sure the results actually work.
